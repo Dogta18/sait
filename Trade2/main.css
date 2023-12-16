@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*font-family: "Roboto", Roboto;*/
+}
+
+header{
+    position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  height: 130px;
+  z-index: 1;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+.ali{
+    position: relative;
+    top: 20%;
+
+}
+
+.AUTO-Trade{
+    position: relative;
+    font-size: 32px;
+    left: 218px;
+
+}
+.import{
+    position: relative;
+    left: 218px;
+    font-size: 18px;
+}
+.nomer{
+    position: fixed;
+    font-size: 26px;
+    right: 450px;
+    top: 5%;
+}
+.sti{
+    position: fixed;
+    font-size: 18px;
+    right: 540px;
+    top: 2.5%;
+}
+.sti2{
+    border: solid 3px #2bff00 ;
+    border-radius: 15px;
+    width: 250px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    right: 100px;
+    font-size: 28px;
+    top: 3%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+.icon{
+position: fixed;
+   background-image: url(img/icon.png);
+   width: 54px;
+   height: 54px;
+  right: 660px;
+   background-repeat: no-repeat;
+   top: 4%;
+   
+}
+main{
+    position: absolute;
+    background-color: #D2D2D2;
+    width: 100%;
+    height: 2043px;
+    top: 13%;
+}
+/*main*/
+.menu {
+    display: block;
+    /*position: relative;*/
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    font-size: 25px;
+    word-spacing: 20px;
+    border-bottom: 1px solid
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        word-spacing: normal;
+    }
+    .windm{
+       background-image: url(img/port.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       height: 690px;
+       width: 1440px;
+       position: relative;
+       left: 11%;
+       border-radius: 30px;
+       top: 3%;
+    }
+    .imp{
+        color: #ffffff;
+        font-size: 75px;
+        position: relative;
+        left: 16%;
+        text-shadow: 3px 3px 3px #000;
+    }
+    .log{
+        background-image: url(img/log.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 70px;
+        width: 1300px;
+        top: 4%;
+        left: 16%;
+    }
+    .vid{
+        color: #000000;
+        font-size: 40px;
+        position: absolute;
+        left: 38.5%;
+        top: 46%;
+    }
+    .suk{
+        background-image: url(img/gop.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 230px;
+        width: 1500px;
+        position: relative;
+        left: 10%;
+        top: 11%;
+    }
+    .pis{
+        background-image: url(img/opis.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        width: 1500px;
+        position: relative;
+        left: 10%;
+        top: 15%; 
+    }
+    ::-webkit-scrollbar {
+        width: 0;
+    }
+    .block{
+        background-color: #272727;
+        width: 100%;
+        height: 500px;
+        bottom: -1650px;
+        position: absolute;
+    }
+    .kon{
+        color: #ffffff;
+        font-size: 40px;
+        position: absolute;
+        left: 5%;
+        top: 10%;
+    }
+    .num{
+        color: #ffffff;
+        font-size: 30px;
+        position: absolute;
+        left: 5%;
+        top: 23%;
+    }
+    .rus{
+        color: #A5A5A5;
+        font-size: 30px;
+        position: absolute;
+        left: 5%;
+        top: 30%;
+    }
+    .num2{
+        color: #ffffff;
+        font-size: 30px;
+        position: absolute;
+        left: 5%;
+        top: 37%;
+    }
+    .ad{
+        color: #A5A5A5;
+        font-size: 30px;
+        position: absolute;
+        left: 5%;
+        top: 43%;
+    }
+    .en{
+        color: #ffffff;
+        font-size: 30px;
+        position: absolute;
+        left: 5%;
+        top: 50%;
+    }
+    .mail{
+        color: #A5A5A5;
+        font-size: 30px;
+        position: absolute;
+        left: 5%;
+        top: 57%;
+    }
+    .auto{
+        color: #ffffff;
+        font-size: 30px;
+        position: absolute;
+        left: 5%;
+        top: 63%;
+    }
+    .graf{
+        color: #A5A5A5;
+        font-size: 30px;
+        position: absolute;
+        left: 5%;
+        top: 70%;
+    }
+    .time{
+        color: #ffffff;
+        font-size: 30px;
+        position: absolute;
+        left: 5%;
+        top: 77%;
+    }
+    .us{
+        color: #ffffff;
+        font-size: 40px;
+        position: absolute;
+        left: 45%;
+        top: 10%;
+    }
+    .kom{
+        color: #A5A5A5;
+        font-size: 30px;
+        position: absolute;
+        left: 45%;
+        top: 22%;
+    }
+    .new{
+        color: #A5A5A5;
+        font-size: 30px;
+        position: absolute;
+        left: 45%;
+        top: 30%;
+    }
+    .info{
+        color: #A5A5A5;
+        font-size: 30px;
+        position: absolute;
+        left: 45%;
+        top: 38%;
+    }
+    .kon2{
+        color: #A5A5A5;
+        font-size: 30px;
+        position: absolute;
+        left: 45%;
+        top: 46%;
+    }
+
+    
+
+
